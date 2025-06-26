@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EVE15B8E4G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EVE15B8E4G');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses - LearnFast</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        .gradient-button {
+            background-image: linear-gradient(to right, #4c51bf, #6b46c1, #805ad5);
+            transition: all 0.3s ease;
+        }
+        .gradient-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(107, 70, 193, 0.4);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header/Navigation Bar -->
+    <header class="bg-white shadow-sm p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="learnfast-landing-page.html" class="text-3xl font-extrabold text-gray-900 rounded-md">LearnFast</a>
+            <div class="hidden md:block">
+                <a href="learnfast-landing-page.html" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-lg font-medium">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Courses List Section -->
+    <section class="flex-grow py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-5xl">
+            <h1 class="text-5xl font-extrabold text-gray-900 text-center mb-12 rounded-lg">Explore Our Courses</h1>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course Card 1: Web Development -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Introduction to Web Development</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Learn the fundamentals of HTML, CSS, and JavaScript to build interactive websites.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: Jane Doe
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 20 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹4,999</div>
+                    <a href="learnfast-course-details-page.html" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Course Card 2: Data Science Basics -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Data Science for Beginners</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Kickstart your journey into data science with Python, Pandas, and data visualization.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: John Smith
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 25 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹6,499</div>
+                    <a href="#" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Course Card 3: Digital Marketing Fundamentals -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Digital Marketing Fundamentals</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Learn SEO, social media marketing, content creation, and email campaigns.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: Emily White
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 18 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹3,799</div>
+                    <a href="#" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Course Card 4: Graphic Design Essentials -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Graphic Design Essentials</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Master design principles and tools like Photoshop and Illustrator.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: Michael Brown
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 22 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹5,299</div>
+                    <a href="#" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Course Card 5: Python Programming for Beginners -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Python Programming for Beginners</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Start coding with Python, a versatile language for various applications.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: Sarah Lee
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 15 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹3,499</div>
+                    <a href="#" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+
+                <!-- Course Card 6: Mobile App Development (React Native) -->
+                <div class="bg-gray-50 rounded-xl shadow-md p-6 flex flex-col transition duration-300 hover:shadow-lg transform hover:translate-y-[-5px]">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Mobile App Dev (React Native)</h2>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Build cross-platform mobile applications with React Native.
+                    </p>
+                    <div class="flex items-center text-gray-700 mb-2">
+                        <span class="mr-2">&#128100;</span> Instructor: David Chen
+                    </div>
+                    <div class="flex items-center text-gray-700 mb-4">
+                        <span class="mr-2">&#9200;</span> Duration: 30 Hours
+                    </div>
+                    <div class="text-3xl font-extrabold text-indigo-600 mb-6">₹7,999</div>
+                    <a href="#" class="gradient-button text-white px-6 py-3 rounded-full text-lg font-semibold text-center hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:ring-opacity-75 transition duration-300">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2025 LearnFast. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
